@@ -1,0 +1,12 @@
+fileignoreconfig:
+- filename: README.md
+  checksum: e7b6c4ffc7e7ea61e16c5992e3de5cbd2d392a311aed9683f1608f7e8be0432c
+- filename: package-lock.json
+  checksum: 7a3172704d7d7458a5903dc20741cf2589ff093fae7a14b17df84642d35af2a4
+- filename: src/data.js
+  checksum: 13c4610290afb63e65ab1e134757aea00fc1ee3e6037aa0c05853b167891c6d7
+- filename: src/final/data.js
+  checksum: eafcc4c6ff44551b0fc06c3e9d1b48133422e1830a7617d7bcb0099f1b728a42
+- filename: src/final/pages/Products.js
+  checksum: f5eb86b8684fde45e1cc8a59717cc57ea20910596ec3bb2beb8c9de5806f620c
+version: "1.0"
