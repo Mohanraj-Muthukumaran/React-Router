@@ -9,4 +9,6 @@ fileignoreconfig:
   checksum: eafcc4c6ff44551b0fc06c3e9d1b48133422e1830a7617d7bcb0099f1b728a42
 - filename: src/final/pages/Products.js
   checksum: f5eb86b8684fde45e1cc8a59717cc57ea20910596ec3bb2beb8c9de5806f620c
+- filename: src/pages/Products.js
+  checksum: d4fe729b3a17608bcc723a9adaf70d9f46035826e29b7419e7e7d57d3ac215ff
 version: "1.0"
