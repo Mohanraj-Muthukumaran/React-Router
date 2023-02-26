@@ -1,10 +1,15 @@
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams} from 'react-router-dom';
 
+import Error from './Error';
 import products from '../data';
 
 const SingleProduct = () => {
   const { productId } = useParams();
-  const {image, name} = products.find((product) => product.id === productId);
+  const product = products.find((product) => product.id === productId);
+  if(!product) {
+    return <Error/>
+  }
+  const { name, image } = product;
   return (
     <section className='section'>
       <img src={image} alt={name}/>
