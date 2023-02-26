@@ -1,13 +1,12 @@
-import { Link, useParams} from 'react-router-dom';
+import { Link, useParams, Navigate} from 'react-router-dom';
 
-import Error from './Error';
 import products from '../data';
 
 const SingleProduct = () => {
   const { productId } = useParams();
   const product = products.find((product) => product.id === productId);
   if(!product) {
-    return <Error/>
+    return <Navigate to='/error'/>
   }
   const { name, image } = product;
   return (
