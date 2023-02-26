@@ -466,3 +466,9 @@ const ProtectedRoute = ({ children, user }) => {
 
 export default ProtectedRoute;
 ```
+
+### Major Changes from React Router V5 to V6
+
+#### useHistory() --> useNavigate()
+
+- https://medium.com/@kgreve14/usehistory-usenavigate-5b383160adba
