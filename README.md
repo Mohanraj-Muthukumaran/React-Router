@@ -1,32 +1,4 @@
-# React Router 6
-
-#### First Pages
-
-- App.js
-
-```js
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<div>home page</div>} />
-        <Route
-          path='testing'
-          element={
-            <div>
-              <h2>testing </h2>
-            </div>
-          }
-        />
-      </Routes>
-    </BrowserRouter>
-  );
-}
-
-export default App;
-```
+# React Router 6 - 6.8.1
 
 #### Components
 
@@ -52,10 +24,11 @@ function App() {
 
 export default App;
 ```
+- https://reactrouter.com/en/main/router-components/browser-router
 
 #### Links
 
-- Home.js, About.js
+- Home.js
 
 ```js
 import { Link } from 'react-router-dom';
@@ -91,23 +64,6 @@ function App() {
     </BrowserRouter>
   );
 }
-```
-
-- Error.js
-
-```js
-import { Link } from 'react-router-dom';
-
-const Error = () => {
-  return (
-    <section className='section'>
-      <h2>404</h2>
-      <p>page not found</p>
-      <Link to='/'>back home</Link>
-    </section>
-  );
-};
-export default Error;
 ```
 
 #### Nested Pages
@@ -472,3 +428,24 @@ export default ProtectedRoute;
 #### useHistory() --> useNavigate()
 
 - https://medium.com/@kgreve14/usehistory-usenavigate-5b383160adba
+
+
+### Topics Covered
+
+1. BrowserRouter and what are routes that we have? ✅
+2. Routes ✅
+3. Route ✅
+4. Link ✅
+5. Error page Configuration ✅
+6. Outlet - Nested Routes ✅
+7. Index Route ✅
+8. NavLink ✅
+9. URL Params ✅
+10. useNavigate() ✅
+11. Configuring a Protected Route ✅
+12. Navigate ✅
+
+#### Demo Link 
+
+- stackblitz.com/edit/reactrouterv6
+
