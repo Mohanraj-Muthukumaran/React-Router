@@ -24,6 +24,7 @@ function App() {
 
 export default App;
 ```
+
 - https://reactrouter.com/en/main/router-components/browser-router
 
 #### Links
@@ -429,7 +430,6 @@ export default ProtectedRoute;
 
 - https://medium.com/@kgreve14/usehistory-usenavigate-5b383160adba
 
-
 ### Topics Covered
 
 1. BrowserRouter and what are routes that we have? ✅
@@ -445,7 +445,6 @@ export default ProtectedRoute;
 11. Configuring a Protected Route ✅
 12. Navigate ✅
 
-#### Demo Link 
+#### Demo Link
 
-- stackblitz.com/edit/reactrouterv6
-
+- stackblitz.com/edit/reactrouter6

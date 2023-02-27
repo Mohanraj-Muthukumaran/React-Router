@@ -1,6 +1,8 @@
-const Dashboard = ({user}) => {
+import React from 'react';
+
+const Dashboard = ({ user }) => {
   return (
-    <section className='section'>
+    <section className="section">
       <h4>hello, {user.name}</h4>
       <p>{user.email}</p>
     </section>

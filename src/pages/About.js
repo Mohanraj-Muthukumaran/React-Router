@@ -1,6 +1,8 @@
+import React from 'react';
+
 const About = () => {
   return (
-    <section className='section'>
+    <section className="section">
       <h2>About</h2>
     </section>
   );
